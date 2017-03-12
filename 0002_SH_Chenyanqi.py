@@ -10,5 +10,3 @@ for one in stu_info:
     one[0] = one[0].strip()
     one[1] = one[1].strip()
     print '%-20s: %02d' % (one[0], int(one[1]))
-
-
