@@ -1,4 +1,4 @@
-  # -*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # 第二次编程作业
 # 提示用户输入如下格式内容Jack Green, 21 ; Mike Mos, 9;后,分行打印学生信息,要求,姓名左对齐宽度20,年龄右对齐,宽度2,不足补零
 stu_info = raw_input('please enter students\' name and age :').split(';')
