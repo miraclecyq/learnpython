@@ -4,7 +4,8 @@
 stu_info = raw_input('please enter students\' name and age :').split(';')
 for one in stu_info:
     if one == '' or one.count(',') != 1:
-        break
+        print 'information error'
+        continue
     one = one.split(',')
     one[0] = one[0].strip()
     one[1] = one[1].strip()
