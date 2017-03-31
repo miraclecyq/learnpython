@@ -5,4 +5,4 @@ def getName(srcStr):
 	index2 = srcStr.find(',',index1)
 	index1 += 12
 
-	print srcStr[index1:index2]
+	return srcStr[index1:index2]
